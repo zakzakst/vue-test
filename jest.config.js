@@ -1,10 +1,16 @@
-/** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
-  preset: "ts-jest",
-  testEnvironment: "node",
-  moduleFileExtensions: ["js", "ts", "json", "vue"],
+  moduleFileExtensions: ["vue", "js", "ts", "tsx"],
+  roots: ["<rootDir>/src"],
+  testMatch: [
+    "**/__tests__/**/*.+(ts|tsx|js)",
+    "**/?(*.)+(spec|test).+(ts|tsx|js)",
+  ],
   transform: {
-    ".*\\.(vue)$": "vue-jest",
+    "^.+\\.(ts|tsx)$": "ts-jest",
+    "^.+\\.vue$": "@vue/vue3-jest",
   },
-  testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+  testEnvironment: "jest-environment-jsdom",
+  testEnvironmentOptions: {
+    customExportConditions: ["node", "node-addons"],
+  },
 };
