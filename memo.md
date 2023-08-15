@@ -3,4 +3,8 @@ https://zenn.dev/d_publishing/articles/40433e48a10e17#referenceerror%3A-vue-is-n
 
 <!-- 次やる -->
 
-https://test-utils.vuejs.org/guide/essentials/passing-data.html
+https://test-utils.vuejs.org/guide/advanced/async-suspense.html
+
+<!-- 下記は今回はやらない -->
+
+https://test-utils.vuejs.org/guide/extending-vtu/community-learning.html
