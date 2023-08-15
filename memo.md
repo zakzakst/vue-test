@@ -3,7 +3,7 @@ https://zenn.dev/d_publishing/articles/40433e48a10e17#referenceerror%3A-vue-is-n
 
 <!-- 次やる -->
 
-https://test-utils.vuejs.org/guide/advanced/component-instance.html
+https://test-utils.vuejs.org/guide/advanced/reusability-composition.html
 
 <!-- 下記は今回はやらない -->
 
