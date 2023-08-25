@@ -3,9 +3,6 @@ https://zenn.dev/d_publishing/articles/40433e48a10e17#referenceerror%3A-vue-is-n
 
 <!-- 次やる -->
 
-実際のルーターの使用
-https://test-utils.vuejs.org/guide/advanced/vue-router.html#using-a-real-router
-
 <!-- 下記は今回はやらない -->
 
 https://test-utils.vuejs.org/guide/extending-vtu/community-learning.html
